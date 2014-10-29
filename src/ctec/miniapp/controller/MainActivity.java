@@ -4,8 +4,11 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView.OnItemSelectedListener;
 
-public class MainActivity extends Activity
+import java.util.ArrayList;
+
+public class MainActivity extends Activity implements OnItemSelectedListener
 {
 
 	@Override
@@ -15,5 +18,5 @@ public class MainActivity extends Activity
 		setContentView(R.layout.activity_main);
 	}
 	
-	
+	public void onItemSelected()
 }
