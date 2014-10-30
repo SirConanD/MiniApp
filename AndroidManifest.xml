@@ -20,15 +20,7 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-    
-    <resource>
-        <string-array name="color_array">
-            <item>Red</item>
-            <item>Orange</item>
-            <item>Green</item>
-            <item>Blue</item>
-        </string-array>
-    </resource>
+
             </intent-filter>
         </activity>
     </application>

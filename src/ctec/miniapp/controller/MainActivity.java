@@ -8,7 +8,7 @@ import android.widget.AdapterView.OnItemSelectedListener;
 
 import java.util.ArrayList;
 
-public class MainActivity extends Activity implements OnItemSelectedListener
+public class MainActivity extends Activity
 {
 
 	@Override
@@ -18,5 +18,4 @@ public class MainActivity extends Activity implements OnItemSelectedListener
 		setContentView(R.layout.activity_main);
 	}
 	
-	public void onItemSelected()
 }

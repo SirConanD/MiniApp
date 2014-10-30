@@ -1,16 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     tools:context="${relativePackage}.${activityClass}" >
-
-    <Spinner
-        android:id="@+id/colorSpinner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/colorBar"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="109dp" />
 
     <SeekBar
         android:id="@+id/colorBar"
@@ -18,6 +10,14 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="81dp" />
+        android:layout_marginBottom="172dp" />
+
+    <Spinner
+        android:id="@+id/colorPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/colorBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp" />
     
 </RelativeLayout>
